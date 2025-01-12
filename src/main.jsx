@@ -5,10 +5,11 @@ import App from './App.jsx'
 import Counter from './components/counter.jsx';
 import "bootstrap/dist/css/bootstrap.css";
 import "font-awesome/css/font-awesome.css";
+import Counters from './components/counters.jsx';
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Counter />
+    <Counters />
   </StrictMode>,
 )
